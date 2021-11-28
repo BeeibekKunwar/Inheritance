@@ -1,0 +1,12 @@
+
+class Test 
+       {
+         public static void main(String [] args)
+          {
+             Employee e=new Employee("Bibek",20,1000);
+             System.out.println(e.getYearlySalary());
+             Teacher t=new Teacher("Kumar",30,1000,6);
+             System.out.println(t.getYearlySalary());
+
+               } 
+                   }
