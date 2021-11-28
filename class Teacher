@@ -1,0 +1,19 @@
+
+class Teacher extends Employee
+     {
+       int tsubject;
+       public Teacher(String name,int id,int salary,int tsubject)
+        {
+          super(name,id,salary);
+          this.tsubject=tsubject;
+            }
+      
+         @Override 
+        public int getYearlySalary()
+          {
+           int tsalary=super.getYearlySalary()+this.tsubject*1000;
+            return tsalary;
+               }
+                 }
+    
+    
