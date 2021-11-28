@@ -1,0 +1,21 @@
+//Program to inherit Employee from class Teacher and calculate Yearly saving.
+
+class Employee {
+  String name;
+  int id;
+  int salary;
+  public Employee (String name,int id,int salary)
+   {
+     this.name=name;
+     this.id=id;
+     this.salary=salary;
+       }
+   public int getYearlySalary()
+    {
+      int tsalary=this.salary*12;
+      return tsalary;
+         }
+           }
+             
+      
+  
